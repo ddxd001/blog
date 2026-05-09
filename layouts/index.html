@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="intro">
+  <h1>{{ .Site.Title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+</section>
+
+<section>
+  <div class="section-heading">
+    <h2>最新文章</h2>
+    <a href="/posts/">查看全部</a>
+  </div>
+  <div class="post-list">
+    {{ range first 8 (where .Site.RegularPages "Section" "posts") }}
+      {{ partial "post-card.html" . }}
+    {{ else }}
+      <p class="empty">还没有文章。</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,11 @@
+baseURL = 'https://ddxd.com.cn/'
+languageCode = 'zh-cn'
+title = '我的个人博客'
+
+[params]
+  description = '记录技术、生活和长期思考。'
+  author = 'ddxd'
+
+[markup]
+  [markup.highlight]
+    noClasses = false
