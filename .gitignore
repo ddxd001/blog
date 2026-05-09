@@ -1,5 +1,6 @@
 .git-store/
 .ssh/
+logs/
 public/
 resources/_gen/
 .hugo_build.lock

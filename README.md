@@ -41,6 +41,20 @@ LD_LIBRARY_PATH=/home/ddxd/.local/hugo/usr/lib/x86_64-linux-gnu /home/ddxd/.loca
 ./git-blog.sh push
 ```
 
+## 自动发布
+
+服务器可用 `auto-deploy.sh` 自动拉取远程仓库并发布：
+
+```bash
+./auto-deploy.sh
+```
+
+脚本日志位于：
+
+```bash
+logs/auto-deploy.log
+```
+
 ## 启用 Nginx
 
 当前账号没有 root 权限时，请用 root 或具备 sudo 权限的账号执行：
