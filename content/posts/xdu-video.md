@@ -7,6 +7,8 @@ summary: "远程查看xdu教室画面的工具网站"
 
 点击前往：[教室画面查看器](https://ddxd.com.cn/classroom/)
 
+项目地址：[GitHub](https://github.com/ddxd001/xdu-video.git)
+
 在浏览器里按 **设备号** 或 **楼栋 + 门牌** 查看教室直播流（HLS / m3u8）。数据来自本地 `urlCache.json`，不依赖外网接口；播放页通过 CDN 加载 [hls.js](https://github.com/video-dev/hls.js/)。
 
 ## 环境要求
